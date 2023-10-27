@@ -1,0 +1,25 @@
+step1:create a xhr objects
+xhr = xmlhttprequest
+syntax to create a xhr object:
+var/let/const variablename = new XMLHttpRequest()
+new = new is the keyword to create object
+
+step2:opening a connection to the server
+3 parameters to open a connection to the server
+1)http methods(get, post ,put , delete)
+2)url
+3)true/false
+syntax:variablename.open("GET","URL",true)
+open:to open server connection 
+
+step3:Initiating a bridge to the server
+syntax:variable name.send()
+send is a bridge method
+
+step4:server response
+onload = it is a event.
+//function (annoymous function)
+function(){
+    
+}
+//response
